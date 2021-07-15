@@ -154,6 +154,12 @@
     .third-section .large {
         width: 500px;
     }
+    .main-nav .menu-toggle.close, .main-nav.on .menu-toggle.open {
+        display: none;
+    }
+    .main-nav.on .menu-toggle.close, .main-nav .menu-toggle.open {
+        display: block;
+    }
 }
 
 @media(max-width:565px) {}
